@@ -1,0 +1,52 @@
+.flex{
+    display: flex;
+}
+.one{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    /* height: 20px; */
+}
+.flex2{
+    display: flex;
+    background-color: blue;
+    padding: 20px;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: right; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* height: 300px; */
+    /* align-items: center; */
+    /* align-items: end; */
+    flex-wrap: wrap;
+}
+.tone{
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+}
+.flex3{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: red;
+}
+.fle{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    border: 1px solid black;
+    box-shadow: 5px 5px 4px grey;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}

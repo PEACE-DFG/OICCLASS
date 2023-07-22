@@ -1,0 +1,77 @@
+/* table{
+    width:100%;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid black;
+
+}
+td{
+    border: 2px solid black;
+
+}
+th:nth-child(even){
+    background-color: red;
+
+}
+th:nth-child(odd){
+    background-color: yellow;
+}
+td:nth-child(even){
+    background-color: gold;
+}
+td:nth-child(odd){
+    background-color: aqua;
+} */
+/* tr:nth-child(even){
+    background-color: chartreuse;
+} */
+
+
+
+/* Second Table Styling */
+/* 
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+
+
+}
+td{
+    border: 1px solid black;
+
+} */
+
+
+
+/* Third table styling */
+
+table{
+    width: 90%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+}
+th{
+    border: 1px solid black;
+
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+.text{
+    border: 1px solid black;
+    background-color: aqua;
+    padding: 50px;
+    margin: 50px;
+}

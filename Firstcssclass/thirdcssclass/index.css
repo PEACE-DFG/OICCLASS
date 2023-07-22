@@ -1,0 +1,39 @@
+.one{
+    border: 3px solid black;
+    margin: 30px;
+    /* outline-style: double;
+    outline-width: 5px;
+    outline-color: red; */
+    outline: 5px groove yellow;
+}
+.two p {
+    text-align: justify;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* word-spacing: 20px; */
+    /* letter-spacing: 20px; */
+    /* text-indent: 50px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+.three h3{
+    text-align: center;
+    font-size: 40px;
+    /* text-shadow: 5px 5px red; */
+    text-shadow: 5px 5px 4px red;
+   
+}
+.three{
+     border: 2px solid black;
+    margin: 20px 0px;
+    box-shadow: 5px 5px 3px grey;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+}

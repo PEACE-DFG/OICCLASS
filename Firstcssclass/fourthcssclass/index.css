@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+a:active{
+    color: red;
+    border-bottom: 1px solid red;
+
+}
+a:visited{
+    color: purple;
+}
+a:link{
+    color: black;
+}
+/* ul{
+    background-color: red;
+    padding: 20px;
+    list-style-position: outside;
+}
+li{
+    background-color: yellow;
+    list-style-type: none;
+} */
+.one:hover{
+    border-bottom: 1px solid black;
+}
+.two:hover{
+    border-bottom: 1px solid black;
+}
+.three:hover{
+    color: white;
+    border-bottom: 1px solid black;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid black;
+}
+td{
+    padding: 20px;
+}
+th:nth-child(even){
+    background-color: grey;
+}
+th:nth-child(odd){
+    background-color: antiquewhite;
+}
+th:hover:nth-child(even){
+    background-color: antiquewhite;
+}
+th:hover:nth-child(odd){
+    background-color: grey;
+}
+td:nth-child(even){
+    background-color: yellow;
+}
+td:nth-child(odd){
+    background-color: blue;
+}
+/* tr:hover{
+    background-color: rgb(0,0,0,0.6);
+    color: white;
+} */
+.ten ul {
+    background-color: rgb(0,0,0,0.6);
+
+}
+.ten li{
+    background-color:yellow;
+    padding: 5px;
+    margin: 0px 40px;
+    border: 1px solid black;
+    display: inline;
+    /* display: block; */
+}
+/* .ten{
+    position: sticky;
+    top: 0px;
+} */
+.real{
+    background-image: url('../images/mountain.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+.text{
+    color: white;
+    text-align: center;
+}
+.text2{
+    color: white;
+    text-align: center;
+}
+.whole{
+    max-width: 300px;
+    margin: auto;
+    /* margin-top: 100px; */
+}
+.all{
+    margin-top: 50px;
+    border: 1px solid white;
+
+}
+.what{
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    background: green;
+    border-radius: 50%;
+    /* position: fixed; */
+    top: 260px;
+    left: 570px;
+}
+.woman img {
+    width: 100%;
+}
+.woman{
+    position: relative;
+    z-index: -1;
+}
+.man{
+    position: absolute;
+    color: white;
+    top: 1300px;
+    left: 300px;
+}
+.stick{
+    background-color: aqua;
+    position: sticky;
+    /* top: 10px; */
+}
+.lorem{
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    overflow: auto;
+    border: 1px dotted black;
+    height: 150px;
+}
+.float{
+    margin: 50px 20px;
+}
+.float1 img{
+    /* float: left; */
+    float: right;
+}
+nav ul{
+    /* background-color: red; */
+    /* float: right ; */
+    /* padding: 20px 0px; */
+}
+/* nav ul li{
+    background-color:blue;
+    list-style-type: none;
+    float: left;
+    margin: 0px 5px;
+    width: 16%;
+
+} */
+.lo{
+    border: 1px solid black;
+    background-color: gold;
+}
+.lor{
+    border: 1px solid blue;
+    background-color: red;
+}
+.lore{
+    border: 1px solid greenyellow;
+    background-color: aqua;
+}
+.book .lo{
+    float: left;
+    width: 33.33;
+}
+nav ul{
+    float: left;
+    width: 33.3334%;
+}
+nav li{
+    list-style-type: none;
+    float: left;
+    font-size: 15px;
+    padding: 10px 10px;
+}
+.form {
+    /* float: left; */
+    display: flex;
+    padding: 10px 0px;
+}
+nav{
+    align-items: center;
+    padding-top: 20px;
+}
+form{
+    padding-left: 20px;
+
+}
+/* .those img{
+    display: none;
+} */
+.opacity{
+    margin-top: 70px;
+    /* background-image: url('../images/mountain.jpg'); */
+    height: 400px;
+    background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.6)),url('../images/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.opacity:hover{
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+.shadow{
+    margin: 30px 0px;
+}
+.shadows {
+    text-align: center;
+    margin: 30px 0px;
+    /* text-shadow: first value= horizontal  || second-value= verticaL ||| third value= color  */
+    /* text-shadow: 5px 5px red ; */
+    /* text-shadow: first value= horizontal  || second-value= verticaL ||| third value= opacity(blurness)  ||||  fourth value= color  */
+    /* text-shadow: 5px 5px 8px red,5px 5px 8px blue,5px 5px 8px yellow ; */
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    box-shadow: 5px 5px 4px grey,5px 5px 4px red;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.first{
+    color: hsl(9, 20%, 40%);
+    background-color: pink;
+}
+.second{
+    /* background-image: url('images/woman.jpg'); */
+    background: linear-gradient(rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url('images/woman.jpg');
+    /* opacity: 0.9; */
+    height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+.third{
+    background-image: url('images/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}

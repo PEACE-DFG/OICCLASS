@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first{
+    border: 5px solid blue ;
+    /* margin: 20px ; */
+    /* padding: 20px; */
+    /* border-width: 25px;
+    border-style: groove;
+    border-color: red; */
+
+    /* 
+    margin for double value
+        SYNTAX------
+        margin: firstvalue(top &bottom)    second value(left & right)
+    */
+    /* margin: 30px 50px; */
+
+
+    /* 
+    margin for three values
+    SYNTAX--------
+    margin: first value(top)   secnd value(left & right)   third value(bottom)
+    */
+
+    /* margin: 40px 50px 10px; */
+
+    /* 
+    margin for four values
+    SYNTAX--------
+    margin: first(top) second(right) third(bottom ) last(left)
+
+    */
+    /* margin: 30px 40px 50px 60px; */
+
+
+
+
+
+    /* padding: 40px; */
+
+    /* 
+    double values
+    */
+    /* padding: 50px 100px; */
+
+    /* 
+    three values */
+    /* padding: 30px 40px 50px; */
+
+    /* 
+    four values
+    */
+    /* padding: 10px 20px 30px 40px; */
+}
