@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="text">
+        
+    </h1>
+    <button onclick="document.getElementById('text').innerHTML='Javscript is Fun'">
+        Change sentence
+    </button>
+    <button onclick="document.getElementById('text').style.color='red'">
+        Change color
+    </button>
+    <button onclick="window.print()">
+        Print Document
+    </button>
+
+
+
+    <script>
+        console.log(2+4);
+        /*document.write("Outputing in Javascript");
+        window.alert("ALERT!!!");*/
+
+        document.getElementById('text').innerHTML="WELCOME TO JAVASCRIPT CLASS";
+
+        let x=3;
+        let y=9;
+        var z=x+y;
+        
+        console.log(z);
+        console.log('z')
+        const two= 5;
+        const Two=26;
+
+        console.log(Two);
+        let $won_123=30;
+        console.log($won_123)
+        
+        console.log(5*2)
+        console.log(10/2)
+        console.log(10-2)
+        console.log(10+2)
+        let desmond = [10, 25, 35, 45];
+        let i = 0;
+
+while (i < desmond.length) {
+  desmond[i] += 10;
+  i++;
+}
+
+console.log(desmond); 
+let peace = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144];
+let index = 2; // Start from the third element (index 2)
+
+while (index < peace.length) {
+  peace[index] = peace[index - 1] + peace[index - 2];
+  index++;
+}
+
+console.log(peace);
+
+
+
+
+    </script>
+</body>
+</html>
