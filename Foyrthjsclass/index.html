@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="demo">
+
+    </p>
+    <p id="demo2">
+
+    </p>
+    
+    <script>
+        //IF and ELSE
+        /*
+        SYNTAX:
+        if(condition){
+            //code execute
+        }else{
+            code executee
+        }
+
+        */
+
+        const time= new Date();
+        console.log(time);
+        const hour= new Date().getHours();
+        console.log(hour);
+        if(hour<18){
+            console.log('Good day')
+        }
+
+        let x=50;
+        let y=10;
+
+        if (x<y){
+            console.log('x is smaller');
+        }else{
+            console.log('x is bigger');
+
+        }
+
+    
+
+
+
+        //else if
+        /*
+            if(condition 1){
+                //code to execute if condition 1 is met
+            }else if(condition 2){
+                //code to execute if condition 2 is met
+            }else{
+                //code to execute if none of the condition is met
+            }
+
+        */
+
+        if(hour<12){
+            console.log('Good morning')
+        }else if(hour<16){
+            console.log('Good afternoon')
+        }else if(hour<19){
+            console.log('Good evening')
+        }else{
+            console.log('Good Night')
+
+        }
+
+        //Switch
+        /*
+            switch(expression){
+                case 1:
+                //code block;
+                break;
+                case 2:
+                //code block;
+                break;
+                default:
+                //code block
+            }
+
+        */
+        let day;
+       // console.log(new Date().getDay());
+       // switch(new Date().getDay()){
+        //    case 6:
+        //    text="Today is Saturday";
+        //    break;
+         //   case 0:
+         //   text="Today is Sunday";
+         //   break;
+         //   default:
+          //  text="Looking forward to the day";
+      //  }
+      //  document.getElementById('demo').innerHTML=text;
+
+      switch(new Date().getDay()){
+        case 0:
+        day="Sunday";
+        break;
+        case 1:
+        day="Monday";
+        break;
+        case 2:
+        day="Tuesday";
+        break;
+        case 3:
+        day="Wednesday";
+        break;
+        case 4:
+        day="Thursday";
+        break;
+        case 5:
+        day="Friday";
+        break;
+        case 6:
+        day="Saturday";
+      }
+      document.getElementById('demo').innerHTML=day;
+
+
+let  H=new Date().getHours();
+let M=new Date().getMinutes();
+let S=new Date().getSeconds();
+
+console.log(H + " " + ":" + " " + M +" "+ ":" + S)
+
+    </script>
+</body>
+</html>
