@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let name="Mr John";
+        console.log(typeof(name));
+        let Length=name.length;
+        console.log(Length);
+
+        let text="Apple,Banana,Kiwi";
+        //Slice
+        /*
+        slice(start,end)
+        */
+        var part=text.slice(6,-2);
+        console.log(part);
+
+        //substring(start,end)
+        console.log(text.substring(6,0));
+
+        //substr(start,length)
+        console.log(text.substr(1,10))
+
+        let message="Please visit Coding SCHOOL Coding";
+        let newText=message.replace("Coding","OIC");
+        let newtext=message.replaceAll("Coding","OIC");
+        console.log(message)
+    console.log(newText)
+    console.log(newtext);
+
+    let small="welcome home";
+    console.log(small.toUpperCase());
+    let big="WELCOME BACK TO OIC";
+    console.log(big.toLowerCase());
+    //TRIM
+    //trimStart
+    //trimEnd
+
+    let three="                   Home          "
+    console.log(three);
+    console.log(three.trim())
+    console.log(three.trimEnd())
+    console.log(three.trimStart())
+
+    //Split
+        /*
+        split(",")
+        */
+        // Index      0,1,2,3,4,5    
+        let alphabet="a,b,c,d,e,f";
+        let myArray=alphabet.split(",");
+        console.log(myArray[2]);
+
+
+        //Searching for a particular content inside of a string of characters
+
+        //1. indexOf();
+        let position="Please locate where locate is locate";
+        let locations=position.indexOf("locate");
+        let locationte=position.lastIndexOf("locate");
+        let locat=position.indexOf("locate",12);
+        console.log(locations);
+        console.log(locationte);
+        console.log(locat);
+
+        let extract=position.search("locate");
+        console.log(extract)
+
+        let person="My name is Peace ,I am a web developer, working at OIC";
+        //let inc=person.includes("Peace");
+        let inc=person.includes("Peace",20);
+        console.log(inc);
+
+        console.log(person.startsWith('My'))
+        console.log(person.endsWith('OIC'))
+
+
+
+
+    </script>
+</body>
+</html>
