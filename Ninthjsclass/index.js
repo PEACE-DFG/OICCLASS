@@ -70,6 +70,7 @@ function checkInputs(){
 
         // to store in localstorage convert the datas from javascript oblect to stings(JSON)
         localStorage.setItem('userData',JSON.stringify(userData));
+        window.location.href='login.html'
 
     }
 }

@@ -42,15 +42,15 @@ h2=document.querySelector('h2')
 input.addEventListener('keyup',display);
 function display(){
     // h2.innerHTML=input.value
-    localStorage.setItem('user',input.value)// to set
-    console.log(localStorage.getItem('user'))
+    localStorage.setItem('userdata',input.value)// to set
+    console.log(localStorage.getItem('userdata'))
+    // h2.innerHTML=localStorage.getItem('userdata')
+
 }
-h2.innerHTML=localStorage.getItem('user')
+h2.innerHTML=localStorage.getItem('userdata')
 
 
 // to insert into local storage(setItem)
 // Syntax= localStorage.setItem('keyName', value)
 
-function clear(){
-    
-}
+
